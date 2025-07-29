@@ -1,40 +1,42 @@
-Quantitative Trading Strategies: Statistical Arbitrage & Momentum Models
+**Quantitative Trading Strategies: Statistical Arbitrage & Momentum Models**
 
 This project showcases two algorithmic trading strategies: Statistical Arbitrage and Momentum, developed in Python using publicly available financial data. It is designed to demonstrate practical skills in quantitative modeling, backtesting, and performance evaluation.
 
-quant-strategies/
-├── data/               # Raw and processed data
-├── notebooks/          # EDA and strategy development notebooks
-├── strategies/         # Trading strategy logic
-├── backtests/          # Backtesting engine and results
-├── reports/            # Visuals, metrics, and performance summaries
-├── utils/              # Helper functions
-├── requirements.txt    # Python dependencies
-├── README.md      # Project overview
+  
+quant-strategies/  
+├── data/               # Raw and processed data   
+├── notebooks/          # EDA and strategy development notebooks  
+├── strategies/         # Trading strategy logic  
+├── backtests/          # Backtesting engine and results  
+├── reports/            # Visuals, metrics, and performance summaries  
+├── utils/              # Helper functions  
+├── requirements.txt    # Python dependencies  
+├── README.md      # Project overview  
 
-📉 Strategy Summaries
 
-1. Statistical Arbitrage
+📉 **Strategy Summaries**
 
-Type: Mean-reversion / Pairs Trading
+**1. Statistical Arbitrage**
 
-Signal: Z-score of price spread between cointegrated assets
+-**Type:** Mean-reversion / Pairs Trading
 
-Execution: Long/short the spread, revert to mean
+-**Signal:** Z-score of price spread between cointegrated assets
 
-Enhancements: Dynamic hedge ratios, Kalman filter smoothing
+-**Execution:** Long/short the spread, revert to mean
 
-2. Momentum
+-**Enhancements:** Dynamic hedge ratios, Kalman filter smoothing
 
-Type: Trend-following (cross-sectional or time-series)
+**2. Momentum**
 
-Signal: Rolling returns, RSI, MACD
+-**Type:** Trend-following (cross-sectional or time-series)
 
-Execution: Long top X% and short bottom X% ranked by momentum
+-**Signal:** Rolling returns, RSI, MACD
 
-ML Option: Use a classifier to predict next-period returns or rank stocks
+-**Execution:** Long top X% and short bottom X% ranked by momentum
 
-📊 Performance Metrics
+-**ML Option:** Use a classifier to predict next-period returns or rank stocks
+
+📊 **Performance Metrics**
 
 Sharpe Ratio
 
